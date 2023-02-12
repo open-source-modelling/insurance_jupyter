@@ -9,7 +9,7 @@
 Every month, EIOPA releases their technical information on the risk free rate term structure that (re)insurers need to use to calculate their technical provisions. This test recalculates the risk-free curve using the parameters that are claimed to be used.
 
 ## This example
-In this example, we look at the EIOPA risk free rate publication for each month startingfrom December 2021 onward. The publication can be found [EIOPA RFR website](https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en).
+In this example, we look at the EIOPA risk free rate publication for each month starting from December 2021 onward. The publication can be found [EIOPA RFR website](https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en).
 
 ## Smith&Wilson algorithm
 
