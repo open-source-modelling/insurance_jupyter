@@ -10,24 +10,25 @@
   Collection of notebooks that actuaries use in model validation and when interacting with the European regulator. 
 </p>
 
-## Algorithms avalible
+## Procedures avalible
 
-| Algorithm                | Source                              | Description                                                                 |
-| -------------------------| ----------------------------------- | ----------------------------------------------------------------------      |
-| [ToDo]                   | [Link 1]                            | ToDo                   |
-| [ToDo2]                  | [Link 2]                            | ToDo                 |
+| Procedure                             | Source                                   | Description                                                                    |
+| --------------------------------------| -----------------------------------------| -------------------------------------------------------------------------------|
+| [EIOPA RFR technical information]     | [EIOPA RFR monthly tests]                | Each monthly submission is recalculated to make sure the given curve is correct|
+| [Metropolis Hastings likelihood test] | [Metropoli-Hastings prameter estimation] | Maximum likelihood of used parameters for a stochastic scenario generator      |
 
 
-
-[Wiki Hull White]:https://en.wikipedia.org/wiki/Hull%E2%80%93White_model
-[1F Hull White]:https://github.com/qnity/insurance_python/tree/main/hull_white_one_factor
+[Metropolis Hastings likelihood test]:https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
+[EIOPA RFR technical information]:https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en
+[EIOPA RFR monthly tests]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test
+[Metropoli-Hastings prameter estimation]:https://github.com/qnity/insurance_jupyter/tree/main/Metropolis_Hastings_Black_Sholes_ESG
 
 ## Procedures planned
 
-| Algorithm                                |  Description                                                            |
-| -----------------------------------------|  ---------------------------------------------------------------------- |
-| Validation of Deterministic scenarios    |  TBD   |
-| Validation of stochastic scenarios       | TBD          |
+| Algorithm                                |  Description                                                                                         |
+| -----------------------------------------|  ----------------------------------------------------------------------------------------------------|
+| Validation of Deterministic scenarios    |  Validation of the deterministic scenario with monthly steps                                         |
+| Validation of stochastic scenarios       | Validation of the stochastic risk neutral scenario with monthly steps and a single source of noise   |
 
 <b> New suggestions are welcome. </b>
 
