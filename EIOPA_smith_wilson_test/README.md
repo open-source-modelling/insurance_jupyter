@@ -1,19 +1,15 @@
 <h1 align="center" style="border-botom: none">
   <b>
-  🐍 Risk free curve test 🐍
+  🐍 EIOPA RFR (Risk free curve) test 🐍
  </b>
 </h1>
 
 </br>
 
-The risk-free curve is one of the principal inputs into an economic scenario generator. This test recalculates the risk-free curve using the parameters that are claimed to be used.
+Every month, EIOPA releases their technical information on the risk free rate term structure that (re)insurers need to use to calculate their technical provisions. This test recalculates the risk-free curve using the parameters that are claimed to be used.
 
 ## This example
-In this example, we look at the EIOPA risk free rate publication from August 2022. This example focuses on the EUR curve.
-The publication can be found [EIOPA RFR website](https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en).
-
-The observed maturities `M_Obs` and the calibrated vector `Qb` can be found in the Excel sheet *EIOPA_RFR_20220831_Qb_SW.xlsx*.
-The target maturities (`T_Obs`), the additional parameters (`UFR` and `alpha`).
+In this example, we look at the EIOPA risk free rate publication for each month startingfrom December 2021 onward. The publication can be found [EIOPA RFR website](https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en).
 
 ## Smith&Wilson algorithm
 
@@ -21,3 +17,36 @@ The implementation of the SW algorithm is a slight modification to the original 
 -  [Python](https://github.com/qnity/insurance_python/tree/main/smith%26wilson)
 -  [Matlab](https://github.com/qnity/insurance_matlab/tree/main/smith%26wilson)
 -  [JavaScript](https://github.com/qnity/insurance_javascript/tree/main/smith-wilson)
+
+| Date                     | Repository                          |
+| -------------------------| ----------------------------------- |
+| 31 January 2023          | [January 2023 repository]           |
+| 31 December 2022         | [December 2022 repository]          |
+| 30 November 2022         | [November 2022 repository]          |
+| 31 October 2022          | [October 2022 repository]           |
+| 30 September 2022        | [September 2022 repository]         |
+| 31 August 2022           | [August 2022 repository]            |
+| 31 July 2022             | [July 2022 repository]              |
+| 30 June 2022             | [June 2022 repository]              |
+| 31 May 2022              | [May 2022 repository]               |
+| 30 April 2022            | [April 2022 repository]             |
+| 31 March 2022            | [March 2022 repository]             |
+| 28 February 2022         | [February 2022 repository]          |
+| 31 January 2022          | [Jenuary 2022 repository]           |
+| 31 December 2021         | [December 2021 repository]          |
+
+
+[January 2023 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/23_January
+[December 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_December
+[November 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_November
+[October 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_October
+[September 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_September
+[August 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_August
+[July 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_July
+[June 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_June
+[May 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_May
+[April 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_April
+[March 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_March
+[February 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_February
+[Jenuary 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_January
+[December 2021 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/21_December
