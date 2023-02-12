@@ -15,7 +15,7 @@
 | Procedure                             | Source                                    | Description                                                                    |
 | --------------------------------------| ------------------------------------------| -------------------------------------------------------------------------------|
 | [EIOPA RFR technical information]     | [EIOPA RFR monthly tests]                 | Each monthly submission is recalculated to make sure the given curve is correct|
-| [Metropolis Hastings likelihood test] | [Metropolis-Hastings parameter estimation]| Maximum likelihood of used parameters for a stochastic scenario generator      |
+| [Metropolis Hastings likelihood test] | [Metropolis-Hastings parameter estimation]|Bayesian maximum likelihood of a Black Sholes stochastic scenario generator     |
 
 
 [Metropolis Hastings likelihood test]:https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
