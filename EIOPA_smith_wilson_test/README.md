@@ -53,3 +53,5 @@ The implementation of the SW algorithm is a slight modification to the original 
 [February 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_February
 [Jenuary 2022 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/22_January
 [December 2021 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/21_December
+
+Queries and suggestions; gregor@osmodelling.com
