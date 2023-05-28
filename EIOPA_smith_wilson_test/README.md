@@ -58,3 +58,69 @@ The implementation of the SW algorithm is a slight modification to the original 
 [December 2021 repository]:https://github.com/qnity/insurance_jupyter/tree/main/EIOPA_smith_wilson_test/21_December
 
 Queries and suggestions; gregor@osmodelling.com
+
+## 🚀 Getting started
+Before using Jupyter Notebook, it is recommanded to instal Anaconda. One of the sources that could be usefull to do that is: 
+
+https://docs.anaconda.com/free/anaconda/install/index.html
+
+After making sure that Anaconda is installed, select the monthly submission of interest. For example, the April 2023 submission is here: [April 2023 repository].
+
+For starters, there are a few examples of reports already available for a preview in pdf form ready for downloading. 
+An example for United Kingdom using the RFR curve without the Volatility Adjustment (VA) is named 23_APRIL_NOVA_UK.pdf
+
+Other examples include:
+ - Italy
+ - Slovenia
+ - Turkey
+
+all with and without Volatility Adjustment.
+
+To run the report for your own country/curve, download the following files in the same folder:
+ - Curves_VA.csv
+ - Curves_no_VA.csv
+ - EIOPA RISK FREE CURVE APRIL 23 RECALCULATION.ipynb
+ - Param_VA.csv
+ - Param_no_VA.csv
+
+Open the Jupyter Notebook EIOPA RISK FREE CURVE APRIL 23 RECALCULATION
+
+Select the correct set of input files. Either with or without VA by commenting the unnecessary set of names. For example, in the picture bellow the curves without VA are selected:
+![image](https://github.com/qnity/insurance_jupyter/assets/95974474/7054fdac-f325-4e30-8a2b-2939d2b40ac4)
+
+Select the country of interest by midifying the variable country. For example in the picture bellow, United Kingdom is selected
+![image](https://github.com/qnity/insurance_jupyter/assets/95974474/6f3b1dec-0eb5-4828-a95c-5af7a113a313)
+
+Run the workbook.
+
+The result of the test is available at the bottom of the workbook.
+
+A visual representation of residuals is also included in the workbook:
+![image](https://github.com/qnity/insurance_jupyter/assets/95974474/410c5fe2-a4f4-4e85-8336-879380a1794c)
+
+
+For first time users, a usefull ling isthe Jupyter Notebook Beginer Guide:
+
+https://jupyter-notebook-beginner-guide.readthedocs.io/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
