@@ -85,7 +85,7 @@ To run the report for your own country/curve, download the following files in th
 
 Open the Jupyter Notebook EIOPA RISK FREE CURVE APRIL 23 RECALCULATION
 
-Select the correct set of input files. Either with or without VA by commenting the unnecessary set of names. For example, in the picture bellow the curves without VA are selected:
+Select the correct set of input files. Either with or without VA by commenting the unnecessary set of names. For example, in the picture bellow the curves with VA are selected:
 ![image](https://github.com/qnity/insurance_jupyter/assets/95974474/7054fdac-f325-4e30-8a2b-2939d2b40ac4)
 
 Select the country of interest by midifying the variable country. For example in the picture bellow, United Kingdom is selected
