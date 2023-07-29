@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/opem-source-modelling" target="_blank">
+  <a href="https://github.com/open-source-modelling" target="_blank">
     <picture>
       <img src="images/Open-source modelling-logos_transparent.png" width=280 alt="Logo"/>
     </picture>
