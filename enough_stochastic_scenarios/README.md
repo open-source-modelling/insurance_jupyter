@@ -6,3 +6,12 @@
 
 </br>
 Checks if the stochastic scenarios from Hull-White model fit the term structure 
+
+
+<div align="center">
+  <a href="https://github.com/opem-source-modelling" target="_blank">
+    <picture>
+      <img src="/Plot_#Scenarios.png" width=280 alt="Logo"/>
+    </picture>
+  </a>
+</div>
