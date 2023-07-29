@@ -9,7 +9,7 @@ Checks if the stochastic scenarios from Hull-White model fit the term structure
 
 
 <div align="center">
-  <a href="https://github.com/open-source-modelling/insurance_jupyter/enough_stochastic_scenarios" target="_blank">
+  <a href="https://github.com/open-source-modelling/insurance_jupyter/tree/main/enough_stochastic_scenarios" target="_blank">
     <picture>
       <img src="images/Plot_#Scenarios.png" width=280 alt="Logo"/>
     </picture>
