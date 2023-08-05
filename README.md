@@ -24,7 +24,7 @@
 | --------------------------------------| ------------------------------------------| -------------------------------------------------------------------------------|
 | [EIOPA RFR monthly tests]             | [EIOPA RFR technical information]         | Each monthly submission is recalculated to make sure the given curve is correct|
 | [Metropolis Hastings likelihood test] | [Metropolis-Hastings parameter estimation]| Bayesian maximum likelihood of a Black Sholes stochastic scenario generator    |
-| [Example_from_lecture]                | [Hull-White Scenarios check]              | Checks if # of stochastic scenarios is large enough to cover term structure    |
+| [Hull-White Scenarios check]          | [Example_from_lecture]                    | Checks if # of stochastic scenarios is large enough to cover term structure    |
 
 
 [Metropolis Hastings likelihood test]:https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
