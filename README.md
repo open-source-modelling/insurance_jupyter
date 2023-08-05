@@ -22,9 +22,9 @@
 
 | Procedure                             | Source                                    | Description                                                                    |
 | --------------------------------------| ------------------------------------------| -------------------------------------------------------------------------------|
-| [EIOPA RFR technical information]     | [EIOPA RFR monthly tests]                 | Each monthly submission is recalculated to make sure the given curve is correct|
+| [EIOPA RFR monthly tests]             | [EIOPA RFR technical information]         | Each monthly submission is recalculated to make sure the given curve is correct|
 | [Metropolis Hastings likelihood test] | [Metropolis-Hastings parameter estimation]| Bayesian maximum likelihood of a Black Sholes stochastic scenario generator    |
-| [Example_from_lecture]                | [# Scenarios check]                       | Checks if # of stochastic scenarios is large enough to cover term structure    |
+| [Example_from_lecture]                | [Hull-White Scenarios check]              | Checks if # of stochastic scenarios is large enough to cover term structure    |
 
 
 [Metropolis Hastings likelihood test]:https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
@@ -32,7 +32,7 @@
 [EIOPA RFR monthly tests]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/EIOPA_smith_wilson_test
 [Metropolis-Hastings parameter estimation]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/Metropolis_Hastings_Black_Sholes_ESG
 [Example_from_lecture]:https://www.youtube.com/watch?v=BIZdwUDbnDo
-[# Scenarios check]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/enough_stochastic_scenarios
+[Hull-White Scenarios check]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/enough_stochastic_scenarios
 
 
 
