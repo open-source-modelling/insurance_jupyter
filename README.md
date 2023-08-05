@@ -32,7 +32,7 @@
 [EIOPA RFR monthly tests]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/EIOPA_smith_wilson_test
 [Metropolis-Hastings parameter estimation]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/Metropolis_Hastings_Black_Sholes_ESG
 [Example_from_lecture]:https://www.youtube.com/watch?v=BIZdwUDbnDo
-[Hull-White Scenarios check]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/enough_stochastic_scenarios
+[Hull-White Scenarios check]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/hull_white_checks
 
 
 
