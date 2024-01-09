@@ -16,7 +16,7 @@ In this example, we look at the EIOPA risk free rate publication for each month 
 The implementation of the SW algorithm is a slight modification to the original OSM implementation. The original implementation can be found in different languages on the OSM's GitHub repository:
 -  [Python](https://github.com/open-source-modelling/insurance_python/tree/main/smith_wilson)
 -  [Matlab](https://github.com/open-source-modelling/insurance_matlab/tree/main/smith_wilson)
--  [JavaScript](https://github.com/open-source-modelling/insurance_javascript/tree/main/smith-wilson)
+-  [JavaScript](https://github.com/open-source-modelling/insurance_javascript/tree/main/smith_wilson)
 
 | Date                     | Repository                          |
 | -------------------------| ----------------------------------- |
