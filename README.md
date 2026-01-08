@@ -25,8 +25,10 @@
 | [EIOPA RFR monthly tests]             | [EIOPA RFR technical information]         | Each monthly submission is recalculated to make sure the given curve is correct|
 | [Metropolis Hastings likelihood test] | [Metropolis-Hastings parameter estimation]| Bayesian maximum likelihood of a Black Sholes stochastic scenario generator    |
 | [Hull-White Scenarios check]          | [Example_from_lecture]                    | Checks if # of stochastic scenarios is large enough to cover term structure    |
+| [EIOPA RFR custom maturities]         | [EIOPA RFR technical information]         | Demonstrates how to calculate a yield curve with custom maturities             |
 
 
+[EIOPA RFR custom maturities]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/EIOPA_different_maturities
 [Metropolis Hastings likelihood test]:https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
 [EIOPA RFR technical information]:https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en
 [EIOPA RFR monthly tests]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/EIOPA_smith_wilson_test
@@ -34,14 +36,6 @@
 [Example_from_lecture]:https://www.youtube.com/watch?v=BIZdwUDbnDo
 [Hull-White Scenarios check]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/hull_white_checks
 
-
-
-## Procedures planned
-
-| Algorithm                                |  Description                                                                                         |
-| -----------------------------------------|  ----------------------------------------------------------------------------------------------------|
-| Validation of Deterministic scenarios    |  Validation of the deterministic scenario with monthly steps                                         |
-| Validation of stochastic scenarios       | Validation of the stochastic risk neutral scenario with monthly steps and a single source of noise   |
 
 <b> New suggestions are welcome. </b>
 
