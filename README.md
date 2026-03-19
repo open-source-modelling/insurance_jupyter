@@ -26,8 +26,9 @@
 | [Metropolis Hastings likelihood test] | [Metropolis-Hastings parameter estimation]| Bayesian maximum likelihood of a Black Sholes stochastic scenario generator    |
 | [Hull-White Scenarios check]          | [Example_from_lecture]                    | Checks if # of stochastic scenarios is large enough to cover term structure    |
 | [EIOPA RFR custom maturities]         | [EIOPA RFR technical information]         | Demonstrates how to calculate a yield curve with custom maturities             |
+| [EIOPA RFR historic curves]           | [EIOPA RFR technical information]         | Contains 134 months of EIOPA RFR curves that can be interpolated to any maturity|
 
-
+[EIOPA RFR historic curves]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/EIOPA_historical_curves
 [EIOPA RFR custom maturities]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/EIOPA_different_maturities
 [Metropolis Hastings likelihood test]:https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
 [EIOPA RFR technical information]:https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en
