@@ -1,6 +1,6 @@
 <h1 align="center" style="border-botom: none">
   <b>
-  🐍 Bayesian validation of the Economic Scenario Generator using Black-Sholes-Merton model 🐍
+  🐍 Bayesian validation of the Economic Scenario Generator using Black-Scholes-Merton model 🐍
  </b>
 </h1>
 
