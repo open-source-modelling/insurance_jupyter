@@ -33,7 +33,7 @@
 [Metropolis Hastings likelihood test]:https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
 [EIOPA RFR technical information]:https://www.eiopa.europa.eu/tools-and-data/risk-free-interest-rate-term-structures_en
 [EIOPA RFR monthly tests]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/EIOPA_smith_wilson_test
-[Metropolis-Hastings parameter estimation]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/Metropolis_Hastings_Black_Sholes_ESG
+[Metropolis-Hastings parameter estimation]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/Metropolis_Hastings_Black_Scholes_ESG
 [Example_from_lecture]:https://www.youtube.com/watch?v=BIZdwUDbnDo
 [Hull-White Scenarios check]:https://github.com/open-source-modelling/insurance_jupyter/tree/main/hull_white_checks
 
